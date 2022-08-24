@@ -14,6 +14,7 @@ function run() {
 try {
   console.log("Linting files...");
   run();
+  console.log("All matched files pass the rules defined by ESlint!");
 } catch (err) {
   core.setFailed(err.message);
 }
