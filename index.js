@@ -8,7 +8,7 @@ function run() {
   }
 
   process.argv = [process.argv[0], process.argv[1], ...parse(args)];
-  require("prettier/bin-prettier");
+  require("eslint/bin/eslint");
 }
 
 try {

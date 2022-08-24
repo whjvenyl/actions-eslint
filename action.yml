@@ -1,11 +1,11 @@
-name: actionsx/prettier
-description: 🔨 Native, blazingly-fast Prettier CLI on Github Actions
+name: actions-eslint
+description: 🔨 Native, blazingly-fast ESlint CLI on Github Actions
 branding:
   icon: align-justify
   color: red
 inputs:
   args:
-    description: Prettier CLI arguments
+    description: ESlint CLI arguments
     required: true
 runs:
   using: node12

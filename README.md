@@ -1,12 +1,12 @@
-# 🔨 actionsx/prettier
+# 🔨 actions-eslint
 
 [![Checks status][checks status]][checks url]
 [![Dependabot status][dependabot status]][dependabot url]
 [![Code style][code style]][code style url]
 [![License][license badge]][license url]
 
-🔥 Native, blazingly-fast `prettier` CLI on Github Actions, allows you to run
-every `prettier` CLI command on Github Actions without having to install Node.js
+🔥 Native, blazingly-fast `eslint` CLI on Github Actions, allows you to run
+every `eslint` CLI command on Github Actions without having to install Node.js
 or any dependency in advance.
 
 > Average completion time: 5-8s - 7x faster than self-implemented workflow (with
@@ -16,10 +16,10 @@ or any dependency in advance.
 
 ```yml
 - uses: actions/checkout@v2 # Check out the repository first.
-- uses: actionsx/prettier@v2
+- uses: actions-eslint
   with:
-    # prettier CLI arguments.
-    args: --check .
+    # eslint CLI arguments.
+    args: --fix .
 ```
 
 ## License
@@ -28,15 +28,9 @@ This project is licensed under the [MIT License][license url].
 
 <!-- Links -->
 
-[checks status]:
-  https://img.shields.io/github/checks-status/actionsx/prettier/master?logo=Github
-[dependabot status]:
-  https://img.shields.io/badge/dependabot-enabled-025e8c?logo=Dependabot
-[license badge]: https://img.shields.io/github/license/actionsx/prettier
-[code style]:
-  https://img.shields.io/badge/code%20style-prettier-F7B93E?logo=Prettier
-[checks url]:
-  https://github.com/actionsx/prettier/actions?query=workflow%3ACI+branch%3Amaster
+[checks status]: https://img.shields.io/github/checks-status/whjvenyl/actions-eslint/master?logo=Github
+[dependabot status]: https://img.shields.io/badge/dependabot-enabled-025e8c?logo=Dependabot
+[license badge]: https://img.shields.io/github/license/actions-eslint
+[checks url]: https://github.com/whjvenyl/ations-eslint/actions?query=workflow%3ACI+branch%3Amaster
 [dependabot url]: /.github/dependabot.yml
-[code style url]: /.prettierrc.json
 [license url]: /LICENSE
