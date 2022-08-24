@@ -8,7 +8,7 @@ function run() {
   }
 
   process.argv = [process.argv[0], process.argv[1], ...parse(args)];
-  require("eslint/bin/eslint");
+  require("eslint");
 }
 
 try {
