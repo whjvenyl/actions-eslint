@@ -12,6 +12,7 @@ function run() {
 }
 
 try {
+  console.log("Linting files...");
   run();
 } catch (err) {
   core.setFailed(err.message);
