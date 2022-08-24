@@ -2,7 +2,6 @@
 
 [![Checks status][checks status]][checks url]
 [![Dependabot status][dependabot status]][dependabot url]
-[![Code style][code style]][code style url]
 [![License][license badge]][license url]
 
 🔥 Native, blazingly-fast `eslint` CLI on Github Actions, allows you to run
@@ -30,7 +29,7 @@ This project is licensed under the [MIT License][license url].
 
 [checks status]: https://img.shields.io/github/checks-status/whjvenyl/actions-eslint/master?logo=Github
 [dependabot status]: https://img.shields.io/badge/dependabot-enabled-025e8c?logo=Dependabot
-[license badge]: https://img.shields.io/github/license/actions-eslint
-[checks url]: https://github.com/whjvenyl/ations-eslint/actions?query=workflow%3ACI+branch%3Amaster
+[license badge]: https://img.shields.io/github/license/whjvenyl/actions-eslint
+[checks url]: https://github.com/whjvenyl/actions-eslint/actions?query=workflow%3ACI+branch%3Amaster
 [dependabot url]: /.github/dependabot.yml
 [license url]: /LICENSE
