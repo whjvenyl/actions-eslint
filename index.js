@@ -1,5 +1,5 @@
 const core = require("@actions/core");
-const { parse } = require("shell-quote");
+const parse = require("shell-quote/parse");
 
 function run() {
   const args = core.getInput("args");
