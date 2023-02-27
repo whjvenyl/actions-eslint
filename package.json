@@ -9,7 +9,7 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "^5.48.1",
+    "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.33.0",
     "shell-quote": "^1.8.0",
     "typescript": "4.9.4"
